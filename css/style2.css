@@ -222,9 +222,6 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 576px) {
     /* Lightning */
     .lightning {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
         margin-top: 25px;
     }
     
@@ -232,11 +229,6 @@ h1, h2, h3, h4, h5, h6 {
         margin-top: 0px;
     }
     
-    .lightning-img img{
-        width: 280px;
-        height: 245px;
-    }
-
     /* USB-C */
     .usb-c {
         margin-top: 15px;
@@ -247,11 +239,6 @@ h1, h2, h3, h4, h5, h6 {
         margin-top: 0px;
     }
     
-    .usbc-img img{
-        width: 280px;
-        height: 245px;
-    }
-
     /* Adapter */
     .adapter {
         margin-top: 15px;
@@ -260,11 +247,6 @@ h1, h2, h3, h4, h5, h6 {
     
     .adapter-text {
         margin-top: 0px;
-    }
-    
-    .adapter-img img {
-        width: 280px;
-        height: 212px;
     }
 
     /* Footer */
