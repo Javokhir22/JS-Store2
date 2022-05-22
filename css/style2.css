@@ -1,0 +1,382 @@
+body {
+    font-family: "Ruberoid-600";
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.container1 {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+/* Navbar */
+.nav-item {
+    padding: 20px;
+}
+
+.nav-link {
+    font-weight: 600;
+    font-style: normal;
+    color: #262626;
+    size: 16px;
+    text-decoration: none;
+    transition: color .2 linear;
+    position: relative;
+    padding: 0;
+}
+
+.nav-link::before {
+    content: '';
+    width: 0;
+    height: 2px;
+    background-color: #262626;
+    position: absolute;
+    transition: all .2s linear;
+    left: 0;
+    bottom: -5px;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.nav-link:hover::before {
+    width: 100%;
+}
+
+.nav-link:visited {
+    color: black
+}
+
+/* Lightning */
+.lightning {
+    margin-top: 30px;
+}
+
+.lightning-text {
+    margin-top: 100px;
+}
+
+.lightning-img img{
+    width: 100%;
+}
+
+/* Usb-c */
+.usb-c {
+    margin-top: 30px;
+}
+
+.usbc-text {
+    margin-top: 200px;
+}
+
+.usbc-img img{
+    width: 100%;
+}
+
+/* Adapter */
+.adapter {
+    margin-top: 140px;
+    margin-bottom: 140px;
+}
+
+.adapter-text {
+    margin-top: 100px;
+}
+
+.adapter-img img {
+    width: 100%;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #e5e5e5;
+    padding: 50px 120px;
+    color: #3d3d3d;
+}
+
+.footer_text {
+    color: #262626;
+    opacity: 0.7;
+}
+
+
+.footer_text h4{
+    font-size: 24px;
+}
+
+.footer_text p{
+    font-family: "Ruberoid-300";
+    font-size: 16px;
+}
+
+.footer .row {
+    margin-top: 50px;
+}
+
+.footer .row .col-md-3 h1{
+    font-size: 24px;
+} 
+
+.footer .row .col-md-3 h5{
+    font-size: 18px;
+}
+
+
+.footer_list {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_link {
+    font-family: "Ruberoid-300";
+    font-size: 16px;
+    margin-top: 10px;
+    list-style-type: none;
+    text-decoration: none;
+    color: #262626;
+    transition: color .2 linear;
+}
+
+.footer_link:hover  {
+    font-family: "Ruberoid-600";
+    color: black;
+}
+
+.social-media {
+    margin-left: -40px;
+    text-align: center;
+}
+
+.footer_icon {
+    margin: 15px;
+    margin-top: 20px;
+}
+
+.footer_icon:hover {
+    transform: scale(1.2);
+}
+
+
+/* General */
+.title h1{
+    font-family: "Ruberoid-800";
+    font-style: normal;
+    font-size: 120px;
+    text-transform: uppercase;
+    color: #000;
+    opacity: 6%;
+}
+
+.sub-title h2{
+    font-family: "Ruberoid-800";
+    font-style: normal;
+    font-size: 47px;
+    margin-top: -60px;
+    /* position: absolute; */
+    text-transform: uppercase;
+    color: #000;
+}
+
+.info-text {
+    font-family: "Ruberoid-600";
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20.8px;
+    color: #454545;
+}
+
+.info-btn {
+    font-family: "Ruberoid-800";
+    margin-top: 25px;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #262626;
+    background-color: #262626;
+    text-align: center; 
+    height: 45px; 
+    width: 190px; 
+    text-decoration: none;
+    transition: background .1s linear, color .1s linear;
+}
+
+.info-btn:hover {
+    background-color: black;
+    color: #fff;
+    border-color: black;
+    transform: scale(1.1);
+}
+
+
+/* 576px */
+@media (max-width: 576px) {
+    /* Lightning */
+    .lightning {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 25px;
+    }
+    
+    .lightning-text {
+        margin-top: 0px;
+    }
+    
+    .lightning-img img{
+        width: 280px;
+        height: 245px;
+    }
+
+    /* USB-C */
+    .usb-c {
+        margin-top: 15px;
+    }
+    
+    .usbc-text {
+        text-align: start !important;
+        margin-top: 0px;
+    }
+    
+    .usbc-img img{
+        width: 280px;
+        height: 245px;
+    }
+
+    /* Adapter */
+    .adapter {
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+    
+    .adapter-text {
+        margin-top: 0px;
+    }
+    
+    .adapter-img img {
+        width: 280px;
+        height: 212px;
+    }
+
+    /* Footer */
+    .footer {
+        background-color: #ebe9e9;
+        padding: 30px 20px !important;
+        color: #3d3d3d;
+    }
+    
+    .footer .row {
+        margin-top: 15px;
+    }
+
+    .categories {
+        display: none;
+    } 
+    
+    .information {
+        margin-top: 10px;
+    }
+    
+    .footer_list {
+        display: flex;
+        flex-direction: column;
+    }
+      
+    .social-media {
+        margin-top: 20px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    
+    .footer_icon {
+        margin: 15px;
+    }
+    
+    .footer_icon:hover {
+        transform: scale(1.2);
+    }
+
+    /* General */
+    .title h1{
+        font-family: "Ruberoid-800";
+        font-style: normal;
+        font-size: 50px;
+        text-transform: uppercase;
+        color: #000;
+        opacity: 6%;
+    }
+
+    .sub-title h2{
+        font-family: "Ruberoid-800";
+        font-style: normal;
+        font-size: 18px;
+        margin-top: -30px;
+        /* position: absolute; */
+        text-transform: uppercase;
+        color: #000;
+    }
+
+    .info-text {
+        font-family: "Ruberoid-600";
+        font-style: normal;
+        font-size: 16px;
+        line-height: 20.8px;
+        color: #262626;
+        opacity: 80%;
+
+    }
+
+    a button {
+        display: none;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: "Ruberoid-800";
+    src: url(/Ruberoid/Ruberoid-ExtraBold.otf);
+}
+
+@font-face {
+    font-family: "Ruberoid-600";
+    src: url(/Ruberoid/Ruberoid-SemiBold.otf);
+}
+
+@font-face {
+    font-family: "Ruberoid-300";
+    src: url(/Ruberoid/Ruberoid-Light.otf);
+}

@@ -1,0 +1,56 @@
+
+/* Container */
+.container2 {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+/* Text */
+.cardheader_title h2{
+    font-family: "Ruberoid-800";
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #262626;
+}
+
+.cardheader_subtitle p{
+    margin-top: 15px;
+    font-family: "Ruberoid-600";
+    font-size: 18px;
+    color: #262626;
+    line-height: 24px;
+}
+
+.cardheader_subtitle span {
+    font-size: 16px;
+    color: #969696;
+}
+
+/* Image */
+
+.row .col-6 .card_image {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+
+
+
+
+
+@font-face {
+    font-family: "Ruberoid-800";
+    src: url(/Ruberoid/Ruberoid-ExtraBold.otf);
+}
+
+@font-face {
+    font-family: "Ruberoid-600";
+    src: url(/Ruberoid/Ruberoid-SemiBold.otf);
+}
+
+@font-face {
+    font-family: "Ruberoid-300";
+    src: url(/Ruberoid/Ruberoid-Light.otf);
+}
