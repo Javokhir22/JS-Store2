@@ -258,6 +258,7 @@ h1, h2, h3, h4, h5, h6 {
     }
     
     .footer .row {
+        justify-content: center;
         text-align: center;
         margin-top: 15px;
     }
@@ -273,6 +274,10 @@ h1, h2, h3, h4, h5, h6 {
     .footer_list {
         display: flex;
         flex-direction: column;
+    }
+
+    .footer_link {
+        text-align: center;
     }
       
     .social-media {
@@ -323,7 +328,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* 768 */
-@media (max-width: 768px) {
+@media (max-width: 577px) and (min-width: 768px) {
     /* Navbar */
     .nav-item {
         padding: 5px;
