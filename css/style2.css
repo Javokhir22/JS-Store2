@@ -25,7 +25,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
     font-style: normal;
     color: #262626;
-    size: 16px;
+    font-size: 16px;
     text-decoration: none;
     transition: color .2 linear;
     position: relative;
@@ -141,6 +141,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 16px;
     margin-top: 10px;
     list-style-type: none;
+    text-align: start;
     text-decoration: none;
     color: #262626;
     transition: color .2 linear;
@@ -257,6 +258,7 @@ h1, h2, h3, h4, h5, h6 {
     }
     
     .footer .row {
+        text-align: center;
         margin-top: 15px;
     }
 
@@ -315,6 +317,117 @@ h1, h2, h3, h4, h5, h6 {
 
     a button {
         display: none;
+    }
+
+
+}
+
+/* 768 */
+@media (max-width: 768px) {
+    /* Navbar */
+    .nav-item {
+        padding: 5px;
+    }
+
+    /* Lightning */
+    .lightning {
+        margin-top: 25px;
+    }
+    
+    .lightning-text {
+        margin-top: 0px;
+    }
+
+    .lightning-img img {
+        float: right;
+        margin-top: -100px;
+        width: 70%;
+    }
+    
+    /* USB-C */
+    .usb-c {
+        margin-top: 15px;
+    }
+    
+    .usbc-text {
+        text-align: end !important;
+        margin-top: 0px;
+    }
+
+    .usbc-img img {
+        margin-top: -100px;
+        width: 70%;
+    }
+    
+    /* Adapter */
+    .adapter {
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+    
+    .adapter-text {
+        margin-top: 0px;
+    }
+
+    .adapter-img img {
+        float: right;
+        margin-top: -100px;
+        width: 70%;
+    }
+
+    /* Footer */
+    .footer {
+        background-color: #ebe9e9;
+        padding: 30px 30px !important;
+        color: #3d3d3d;
+    }
+    
+    .footer .row {
+        margin-top: 30px;
+    }
+    
+    .footer_list {
+        display: flex;
+        flex-direction: column;
+    }
+      
+    .social-media {
+        margin-left: 0px;
+        text-align: center;
+    }
+    
+    .footer_icon {
+        margin: 15px;
+    }
+
+    /* General */
+    .title h1{
+        font-family: "Ruberoid-800";
+        font-style: normal;
+        font-size: 15vw;
+        text-transform: uppercase;
+        color: #000;
+        opacity: 6%;
+    }
+
+    .sub-title h2{
+        font-family: "Ruberoid-800";
+        font-style: normal;
+        font-size: 6vw;
+        margin-top: -60px;
+        /* position: absolute; */
+        text-transform: uppercase;
+        color: #000;
+    }
+
+    .info-text {
+        font-family: "Ruberoid-600";
+        font-style: normal;
+        font-size: 16px;
+        line-height: 20.8px;
+        color: #262626;
+        opacity: 80%;
+
     }
 
 
