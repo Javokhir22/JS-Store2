@@ -29,11 +29,19 @@
 
 /* Image */
 
-.row .col-6 .card_image {
+.card_image img{
+    height: auto;
     width: 100%;
+    cursor: pointer;
     border-radius: 20px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
+
+
+
+
+
+
 
 
 
