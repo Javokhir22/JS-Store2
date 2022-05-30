@@ -212,10 +212,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .info-btn:hover {
-    background-color: black;
-    color: #fff;
-    border-color: black;
-    transform: scale(1.1);
+    background-color: #fff;
+    color: #262626;
+    border-color: #262626;
 }
 
 
