@@ -1,0 +1,9 @@
+#Lightning {
+    /* position: fixed; */
+    transform: translateY(-150%);
+    transition: .5s;
+}
+
+#Lightning.active {
+    transform: translateY(0);
+}

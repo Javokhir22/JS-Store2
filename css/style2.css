@@ -21,6 +21,19 @@ h1, h2, h3, h4, h5, h6 {
     padding: 20px;
 }
 
+.navbar-brand svg {
+    width: 100%;
+}
+
+.navbar-toggler {
+    border: none;
+    color: transparent;
+}
+
+.navbar-toggler:active {
+    outline: none !important;
+}
+
 .nav-link {
     font-weight: 600;
     font-style: normal;
