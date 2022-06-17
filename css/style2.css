@@ -17,12 +17,22 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /* Navbar */
+.navbar {
+    margin: 0px !important;
+}
+
 .nav-item {
     padding: 20px;
 }
 
-.navbar-brand svg {
-    width: 100%;
+.navbar_brand {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar_brand svg {
+    margin-top: 15px;
+    width: 20%;
 }
 
 .navbar-toggler {
@@ -88,6 +98,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .usbc-text {
     margin-top: 200px;
+}
+
+.usbc-img {
+    margin: 0 auto;
 }
 
 .usbc-img img{
@@ -233,6 +247,13 @@ h1, h2, h3, h4, h5, h6 {
 
 /* 576px */
 @media (max-width: 576px) {
+
+    /* Navbar */
+    .navbar_brand svg {
+        margin-top: 15px;
+        width: 30%;
+    }
+
     /* Lightning */
     .lightning {
         margin-top: 25px;
@@ -347,6 +368,12 @@ h1, h2, h3, h4, h5, h6 {
         padding: 5px;
     }
 
+    .navbar_brand svg {
+        margin-top: 15px;
+        width: 30%;
+    }
+
+
     /* Lightning */
     .lightning {
         margin-top: 25px;
@@ -447,6 +474,17 @@ h1, h2, h3, h4, h5, h6 {
 
     }
 
+ 
+
+
+
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+
+    .image {
+        margin-top: 30%;
+    }
 
 }
 
